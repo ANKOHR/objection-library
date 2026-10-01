@@ -1,0 +1,19 @@
+Objection Library local build completion
+Date: 2026-10-01
+Branch: main
+Test count: 32 passed (python -m pytest -q, 1.40 seconds).
+Local implementation commit: 7198b628e930512d23d04bc273b8875000ad7a06
+This hash identifies the tested implementation; the following documentation-only commit records this build report.
+
+Built a dependency-free Python CLI with fixtures, run, report, add and responses commands; pure schema validation and counting; UTF-8 local JSONL input; atomic state and report writes; exact response grouping with record-level traceability; Markdown and JSON provenance reports; 200 labelled synthetic records and independent hand-computed expectations; a five-record handwritten synthetic example; adversarial, mutation, determinism and end-to-end tests; complete input and operating documentation, domain lessons and a two-week evidence log. All 32 tests pass. No real outreach trials or hypothetical business benefits are represented as measured results. The final operational verdict awaits real-use evidence. Publishing was not performed.
+
+Measured local acceptance evidence:
+- Initial installed-entry-point 200-record fixture/run/Markdown-report demo: 0.762194 seconds.
+- Standalone installed-entry-point Markdown report on the 200 records: 0.2387518 seconds.
+- Ground truth: 200 total, 50 accepted, 50 rejected, 50 pending, 50 untested, 100 completed tests.
+- All 50 planted accepted IDs found, zero false positives and zero missing planted accepted cases.
+- Corrupted fixture outcome changes report counts to 49 accepted and 51 rejected.
+- Repeated run/state and JSON report output verified byte-identical.
+- Tracked source/doc scan found no em dash characters.
+
+These timings are measured local engineering results, not estimates of time or money saved in outreach. Runtime application has no network, GPU or language-model dependencies. Git author identity is configured only in this repository as Objection Library Builder <objection-library-builder@localhost> because no existing author identity was configured.
