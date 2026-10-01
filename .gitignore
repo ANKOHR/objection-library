@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.ol/
+demo/
+objection-library-codex.log
+objection-library-launch.py
+objection-library-prompt.txt

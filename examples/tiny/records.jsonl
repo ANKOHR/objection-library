@@ -1,0 +1,6 @@
+# SYNTHETIC: five handwritten examples, not real outreach trials
+{"id":"tiny1","synthetic":true,"date":"2026-09-01","objection":"Budget","response":"Scoped trial","outcome":"accepted"}
+{"id":"tiny2","synthetic":true,"date":"2026-09-02","objection":"Budget","response":"Scoped trial","outcome":"rejected"}
+{"id":"tiny3","synthetic":true,"date":"2026-09-03","objection":"Timing","response":"Review date","outcome":"pending"}
+{"id":"tiny4","synthetic":true,"date":"2026-09-04","objection":"No need","response":"","outcome":"untested"}
+{"id":"tiny5","synthetic":true,"date":"2026-09-05","objection":"Timing","response":"Review date","outcome":"accepted"}

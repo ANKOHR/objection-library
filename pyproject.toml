@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "objection-library"
+version = "0.1.0"
+description = "Accumulate objections and recorded response trials from explicit local inputs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ol = "objection_library.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
